@@ -1,9 +1,11 @@
-import './App.css';
+import "./App.css";
+import Game from '../src/components/Game/Game'
+import React from 'react'
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World!</h1>
+      <Game />
     </div>
   );
 }
